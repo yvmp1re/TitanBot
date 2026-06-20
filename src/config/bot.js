@@ -170,7 +170,7 @@ export const botConfig = {
     baseBankCapacity: 100000,
 
     // Daily reward amount.
-    dailyAmount: 1000,
+    dailyAmount: 10000,
 
     // Work command random payout range.
     workMin: 10,
@@ -365,9 +365,9 @@ export const botConfig = {
     defaultGoodbyeMessage:
       "{user} has left the server. We now have {memberCount} members.",
     // Channel ID for welcome messages.
-    defaultWelcomeChannel: null,
+    defaultWelcomeChannel: wazzup {name},
     // Channel ID for goodbye messages.
-    defaultGoodbyeChannel: null,
+    defaultGoodbyeChannel: ba bye {name},
   },
 
   // =========================
