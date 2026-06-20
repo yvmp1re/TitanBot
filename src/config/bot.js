@@ -365,9 +365,9 @@ export const botConfig = {
     defaultGoodbyeMessage:
       "{user} has left the server. We now have {memberCount} members.",
     // Channel ID for welcome messages.
-    defaultWelcomeChannel: wazzup {name},
+    defaultWelcomeChannel: null,
     // Channel ID for goodbye messages.
-    defaultGoodbyeChannel: ba bye {name},
+    defaultGoodbyeChannel: null,
   },
 
   // =========================
